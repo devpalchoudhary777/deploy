@@ -1,0 +1,8 @@
+name: workflow
+on: {push}
+jobs:
+hello:
+runs-on: ubuntu-latest 
+steps:
+-name: hello msg
+run: echo"working well"
